@@ -2,11 +2,16 @@
 // Author:qinliansong
 //
 
-#include "duck.h"
+#include "duck/duck.h"
 
 namespace duck {
-void BaseDuck::quack() {
-    std::cout << "这是鸭子呱呱叫" << std::endl;
+
+void BaseDuck::performFly() {
+    flybehavior->fly();
+}
+
+void BaseDuck::performQuack() {
+    quackbehavior->quack();
 }
 
 void BaseDuck::swim() {

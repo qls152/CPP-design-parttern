@@ -1,7 +1,7 @@
 //
 // Author: qinliansong
 //
-#include "mallardduck.h"
+#include "duck/mallardduck.h"
 
 namespace duck {
 

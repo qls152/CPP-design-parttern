@@ -13,12 +13,13 @@
 
 TEST(TestWeatherData, HandleRegisterObserver) {
 
-    std::unique_ptr<observer_patern::Subject> weatherData(new observer_patern::WeatherData());
-    observer_patern::ForeCastDisplay forecastDisplay(&weatherData);
+    // std::unique_ptr<observer_patern::Subject> weatherData(new observer_patern::WeatherData());
+    observer_patern::WeatherData weatherdata;
+    observer_patern::ForeCastDisplay forecastDisplay(&weatherdata);
 
-    EXPECT_EQ(1, weatherData->getobserversize());
+    EXPECT_EQ(1, weatherdata.getobserversize());
 
-    weatherData->setMeasureMents(80, 65, 30.5f);
+    weatherdata.setMeasureMents(80, 65, 30.5f);
     
 }
 

@@ -17,16 +17,19 @@ public observer_patern::Observer, public observer_patern::DisplayElement {
 private:
     float templature;
     float humidity;
-    typedef std::unique_ptr<observer_patern::WeatherData>* subject;
+    typedef observer_patern::WeatherData* subject;
     subject weatherData;
     
 public:
-    ForeCastDisplay(subject weatherdata) 
-    : weatherData(weatherdata) {
-        std::unique_ptr<observer_patern::Observer> this_object(std::move(this));
-        weatherData->get()->registerObserver(&this_object);
+    ForeCastDisplay(subject weatherdat) 
+    : weatherData(weatherdat) {
+        // std::unique_ptr<observer_patern::Observer> this_object(std::move(this));
+        // weatherData->get()->registerObserver(&this_object);
+        weatherData->registerObserver(this);
     }
-    virtual ~ForeCastDisplay() {}
+    virtual ~ForeCastDisplay() {
+        delete weatherData;
+    }
     
     void update(float temperature, float humidity, float pressure) override;
 

@@ -11,12 +11,12 @@
 namespace observer_patern {
 class Subject {
 public:
-    typedef std::unique_ptr<observer_patern::Observer>* observer;
+    typedef observer_patern::Observer* observer;
 public:
     virtual ~Subject() {}
     // 这两个方法需要观察者作为变量
-    virtual void registerObserver(observer o)  = 0;
-    virtual void removeObserver(observer o)  = 0;
+    virtual void registerObserver(const observer o)  = 0;
+    virtual void removeObserver(const observer o)  = 0;
     // 当主题改变时，该方法会被调用，以通知所有观察者
     virtual void notifyObservers()  = 0;
 };

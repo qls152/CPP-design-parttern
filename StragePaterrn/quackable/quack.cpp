@@ -1,7 +1,7 @@
 //
 //
 //
-#include "quackable/quack.h"
+#include "quack.h"
 
 namespace duck {
     void Quack::quack() {

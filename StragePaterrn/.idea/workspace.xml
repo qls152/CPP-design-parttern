@@ -1,15 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="testduck" targetName="test_miniducksimulator" />
+      <config projectName="testduck" targetName="Quack" />
+      <config projectName="testduck" targetName="Flyable" />
+      <config projectName="testduck" targetName="testduck" />
+      <config projectName="testduck" targetName="Duck" />
+    </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47a134db-da13-487f-b9a7-0d166e740756" name="Default Changelist" comment="" />
+    <list default="true" id="47a134db-da13-487f-b9a7-0d166e740756" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ObservePatern/googletest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/duck/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flyable/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quackable/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utest/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utest/test_miniducksimulator.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../singletonpattern/.idea/singletonpattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../singletonpattern/chocolaterboiler.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../singletonpattern/chocolaterboiler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/StragePaterrn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/StragePaterrn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duck/duck.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/duck/duck.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duck/duck.h" beforeDir="false" afterPath="$PROJECT_DIR$/duck/duck.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duck/mallardduck.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/duck/mallardduck.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duck/mallardduck.h" beforeDir="false" afterPath="$PROJECT_DIR$/duck/mallardduck.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duck/redduck.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/duck/redduck.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duck/redduck.h" beforeDir="false" afterPath="$PROJECT_DIR$/duck/redduck.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flyable/flynoway.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/flyable/flynoway.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flyable/flynoway.h" beforeDir="false" afterPath="$PROJECT_DIR$/flyable/flynoway.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flyable/flywithwings.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/flyable/flywithwings.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flyable/flywithwings.h" beforeDir="false" afterPath="$PROJECT_DIR$/flyable/flywithwings.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quackable/mutequack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/quackable/mutequack.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quackable/mutequack.h" beforeDir="false" afterPath="$PROJECT_DIR$/quackable/mutequack.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quackable/quack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/quackable/quack.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quackable/quack.h" beforeDir="false" afterPath="$PROJECT_DIR$/quackable/quack.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quackable/squeak.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/quackable/squeak.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quackable/squeak.h" beforeDir="false" afterPath="$PROJECT_DIR$/quackable/squeak.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +58,42 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1QVoIqGeo4c6Qj7MTGbYVu0ucjv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/utest" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -35,12 +107,45 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="CMake Application.testduck">
+    <configuration name="test_miniducksimulator" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testduck" TARGET_NAME="test_miniducksimulator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testduck" RUN_TARGET_NAME="test_miniducksimulator" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Duck" type="CMakeRunConfiguration" factoryName="Application" editBeforeRun="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testduck" TARGET_NAME="Duck" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Flyable" type="CMakeRunConfiguration" factoryName="Application" editBeforeRun="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testduck" TARGET_NAME="Flyable" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Quack" type="CMakeRunConfiguration" factoryName="Application" editBeforeRun="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testduck" TARGET_NAME="Quack" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" editBeforeRun="true" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testduck" type="CMakeRunConfiguration" factoryName="Application" editBeforeRun="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testduck" TARGET_NAME="testduck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="testduck" RUN_TARGET_NAME="testduck">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.testduck" />
+      <item itemvalue="CMake Application.Duck" />
+      <item itemvalue="CMake Application.Flyable" />
+      <item itemvalue="CMake Application.Quack" />
+      <item itemvalue="Google Test.test_miniducksimulator" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -53,10 +158,31 @@
       <option name="presentableId" value="Default" />
       <updated>1567865048372</updated>
       <workItem from="1567865053174" duration="35000" />
+      <workItem from="1570969156538" duration="1002000" />
+      <workItem from="1570972202424" duration="13000" />
+      <workItem from="1570972261908" duration="6008000" />
+      <workItem from="1571536770215" duration="940000" />
+      <workItem from="1571537883644" duration="5843000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

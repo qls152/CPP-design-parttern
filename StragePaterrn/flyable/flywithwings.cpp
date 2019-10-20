@@ -2,7 +2,7 @@
 //
 //
 
-#include "flyable/flywithwings.h"
+#include "flywithwings.h"
 
 namespace duck {
     void FlyWithWings::fly() {

@@ -1,0 +1,15 @@
+/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/CMakeFiles/testduck.dir
+/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/duck/CMakeFiles/rebuild_cache.dir
+/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/duck/CMakeFiles/edit_cache.dir
+/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/duck/CMakeFiles/Duck.dir
+/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/flyable/CMakeFiles/rebuild_cache.dir
+/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/flyable/CMakeFiles/edit_cache.dir
+/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/flyable/CMakeFiles/Flyable.dir
+/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/quackable/CMakeFiles/rebuild_cache.dir
+/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/quackable/CMakeFiles/edit_cache.dir
+/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/quackable/CMakeFiles/Quack.dir
+/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/utest/CMakeFiles/rebuild_cache.dir
+/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/utest/CMakeFiles/edit_cache.dir
+/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/utest/CMakeFiles/test_miniducksimulator.dir

@@ -1,7 +1,8 @@
 //
 //
 //
-#include "quackable/quackbehavior.h"
+#pragma once
+#include "quackbehavior.h"
 
 namespace duck {
 class MuteQuack : public QuackBehavior {

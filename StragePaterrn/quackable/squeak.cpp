@@ -1,7 +1,7 @@
 //
 //
 //
-#include "quackable/squeak.h"
+#include "squeak.h"
 
 namespace duck {
     void Squeak::quack() {

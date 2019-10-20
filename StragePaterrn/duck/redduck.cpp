@@ -1,7 +1,7 @@
 //
 // Author: qinliansong
 //
-#include "duck/redduck.h"
+#include "redduck.h"
 
 namespace duck {
 

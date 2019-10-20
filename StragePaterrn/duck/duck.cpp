@@ -2,7 +2,7 @@
 // Author:qinliansong
 //
 
-#include "duck/duck.h"
+#include "duck.h"
 
 namespace duck {
 

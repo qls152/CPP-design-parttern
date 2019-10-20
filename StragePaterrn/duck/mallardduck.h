@@ -2,10 +2,10 @@
 // Author: qinliansong
 //
 // 绿头鸭类
-
-#include "duck/duck.h"
-#include "flyable/flywithwings.h"
-#include "quackable/quack.h"
+#pragma once
+#include "duck.h"
+#include "../flyable/flywithwings.h"
+#include "../quackable/quack.h"
 
 namespace duck{
 

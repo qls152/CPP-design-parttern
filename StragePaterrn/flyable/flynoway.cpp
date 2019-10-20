@@ -1,7 +1,7 @@
 //
 //
 //
-#include "flyable/flynoway.h"
+#include "flynoway.h"
 
 namespace duck {
     void FlyNoway::fly() {

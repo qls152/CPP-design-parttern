@@ -1,10 +1,10 @@
 //
 // Author: qinliansong
 //
-
-#include "duck/duck.h"
-#include "flyable/flynoway.h"
-#include "quackable/squeak.h"
+#pragma once
+#include "duck.h"
+#include "../flyable/flynoway.h"
+#include "../quackable/squeak.h"
 
 namespace duck {
 

@@ -6,8 +6,8 @@
 #define HEADFIRST_DUCK_H
 #include <iostream>
 #include <memory>
-#include "flyable/flybehavior.h"
-#include "quackable/quackbehavior.h"
+#include "../flyable/flybehavior.h"
+#include "../quackable/quackbehavior.h"
 
 namespace duck{
     

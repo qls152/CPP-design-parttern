@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="testduck"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\duck\;CMake Files\flyable\;CMake Files\quackable\;CMake Files\utest\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testduck">
+				<Option output="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/testduck" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/x86_64-apple-darwin18"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/Makefile&quot;  VERBOSE=1 testduck"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testduck/fast">
+				<Option output="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/testduck" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/x86_64-apple-darwin18"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/Makefile&quot;  VERBOSE=1 testduck/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Duck">
+				<Option output="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/duck/libDuck.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/duck"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/x86_64-apple-darwin18"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/duck/Makefile&quot;  VERBOSE=1 Duck"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/duck/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/duck/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/duck/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Duck/fast">
+				<Option output="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/duck/libDuck.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/duck"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/x86_64-apple-darwin18"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/duck/Makefile&quot;  VERBOSE=1 Duck/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/duck/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/duck/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/duck/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Flyable">
+				<Option output="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/flyable/libFlyable.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/flyable"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/x86_64-apple-darwin18"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/flyable/Makefile&quot;  VERBOSE=1 Flyable"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/flyable/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/flyable/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/flyable/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Flyable/fast">
+				<Option output="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/flyable/libFlyable.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/flyable"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/x86_64-apple-darwin18"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/flyable/Makefile&quot;  VERBOSE=1 Flyable/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/flyable/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/flyable/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/flyable/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Quack">
+				<Option output="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/quackable/libQuack.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/quackable"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/x86_64-apple-darwin18"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/quackable/Makefile&quot;  VERBOSE=1 Quack"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/quackable/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/quackable/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/quackable/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Quack/fast">
+				<Option output="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/quackable/libQuack.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/quackable"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/x86_64-apple-darwin18"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/quackable/Makefile&quot;  VERBOSE=1 Quack/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/quackable/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/quackable/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/quackable/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_miniducksimulator">
+				<Option output="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/utest/test_miniducksimulator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/utest"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/x86_64-apple-darwin18"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/utest/Makefile&quot;  VERBOSE=1 test_miniducksimulator"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/utest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/utest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/utest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_miniducksimulator/fast">
+				<Option output="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/utest/test_miniducksimulator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/utest"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/x86_64-apple-darwin18"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/utest/Makefile&quot;  VERBOSE=1 test_miniducksimulator/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/utest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/utest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/cmake-build-debug/utest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/duck/duck.cpp">
+			<Option target="Duck"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/duck/duck.h">
+			<Option target="Duck"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/duck/mallardduck.cpp">
+			<Option target="Duck"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/duck/mallardduck.h">
+			<Option target="Duck"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/duck/redduck.cpp">
+			<Option target="Duck"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/duck/redduck.h">
+			<Option target="Duck"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/flyable/flynoway.cpp">
+			<Option target="Flyable"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/flyable/flynoway.h">
+			<Option target="Flyable"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/flyable/flywithwings.cpp">
+			<Option target="Flyable"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/flyable/flywithwings.h">
+			<Option target="Flyable"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/main.cpp">
+			<Option target="testduck"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/quackable/mutequack.cpp">
+			<Option target="Quack"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/quackable/mutequack.h">
+			<Option target="Quack"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/quackable/quack.cpp">
+			<Option target="Quack"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/quackable/quack.h">
+			<Option target="Quack"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/quackable/squeak.cpp">
+			<Option target="Quack"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/quackable/squeak.h">
+			<Option target="Quack"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/utest/test_miniducksimulator.cpp">
+			<Option target="test_miniducksimulator"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/duck/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\duck\"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/flyable/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\flyable\"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/quackable/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\quackable\"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/HeadFirst_C-/StragePaterrn/utest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\utest\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

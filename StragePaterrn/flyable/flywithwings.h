@@ -1,7 +1,8 @@
 //
 //
 //
-#include "flyable/flybehavior.h"
+#pragma once
+#include "flybehavior.h"
 
 namespace duck {
 class FlyWithWings : public FlyBehavior {

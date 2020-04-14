@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="dp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dp">
+				<Option output="/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/cmake-build-debug/dp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/x86_64-apple-darwin18"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/cmake-build-debug/Makefile&quot;  VERBOSE=1 dp"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dp/fast">
+				<Option output="/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/cmake-build-debug/dp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/x86_64-apple-darwin18"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/cmake-build-debug/Makefile&quot;  VERBOSE=1 dp/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/beverage.cpp">
+			<Option target="dp"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/beverage.h">
+			<Option target="dp"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/condimentdecorator.cpp">
+			<Option target="dp"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/condimentdecorator.h">
+			<Option target="dp"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/espresso.cpp">
+			<Option target="dp"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/espresso.h">
+			<Option target="dp"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/houseblend.cpp">
+			<Option target="dp"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/houseblend.h">
+			<Option target="dp"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/main.cpp">
+			<Option target="dp"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/mocha.cpp">
+			<Option target="dp"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/mocha.h">
+			<Option target="dp"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/soy.cpp">
+			<Option target="dp"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/soy.h">
+			<Option target="dp"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/whip.cpp">
+			<Option target="dp"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/whip.h">
+			<Option target="dp"/>
+		</Unit>
+		<Unit filename="/Users/qinliansong/Downloads/日常练习/DecoratorPaerrn/dp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

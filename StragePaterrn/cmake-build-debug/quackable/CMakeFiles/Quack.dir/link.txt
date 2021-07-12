@@ -1,2 +1,0 @@
-/usr/bin/ar qc libQuack.a  CMakeFiles/Quack.dir/mutequack.cpp.o CMakeFiles/Quack.dir/quack.cpp.o CMakeFiles/Quack.dir/squeak.cpp.o
-/usr/bin/ranlib libQuack.a

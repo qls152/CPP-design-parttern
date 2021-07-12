@@ -1,2 +1,0 @@
-/usr/bin/ar qc libFlyable.a  CMakeFiles/Flyable.dir/flynoway.cpp.o CMakeFiles/Flyable.dir/flywithwings.cpp.o
-/usr/bin/ranlib libFlyable.a

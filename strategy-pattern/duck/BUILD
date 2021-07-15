@@ -1,11 +1,12 @@
 package(default_visibility = ["//visibility:public"])
 
-cc_library(
-  name = "duck-lib",
+cc_binary(
+  name = "duck",
   copts = [
 	  "-std=c++17",
 	  "-O2",
 	  "-Wall",
+    "-rdynamic",
   ],
   srcs = glob([
 	  "duck/*.cc",

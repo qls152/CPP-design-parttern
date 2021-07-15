@@ -1,0 +1,6 @@
+
+build --action_env=BAZEL_LINKLIBS=-l%:libstdc++.a
+build --action_env=BAZEL_LINKOPTS=-lm
+build --action_env=CC
+build --action_env=CXX
+build --action_env=PATH

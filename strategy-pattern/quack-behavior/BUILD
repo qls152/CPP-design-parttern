@@ -7,9 +7,13 @@ cc_library(
       "-O2",
       "-Wall"
    ],
-   includes = ["quack-behavior"],
    srcs = glob([
-	 "quack-behavior/*.cc",
-	 "quack-behavior/*.h",
+	 "mute_quack.cc",
+	 "quack.cc",
+    "squeak.cc",
+    "mute_quack.h",
+    "quack.h",
+    "squeak.h",
+    "quack_behavior.h",
    ]),	
 )

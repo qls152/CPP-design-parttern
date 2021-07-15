@@ -3,8 +3,8 @@
 #include <memory>
 #include <iostream>
 
-class FlyBehavior;
-class QuackBehavior;
+#include "fly-behavior/fly_behavior.h"
+#include "quack-behavior/quack_behavior.h"
 
 class Duck {
 private:

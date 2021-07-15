@@ -8,10 +8,13 @@ cc_binary(
 	  "-Wall",
     "-rdynamic",
   ],
-  srcs = glob([
-	  "duck/*.cc",
-	  "duck/*.h",
-  ]),
+  srcs = [
+	  "mallard_duck.cc",
+    "main.cc",
+    "duck.h",
+    "mallard_duck.h",
+  ],
+
   deps = [
      "//fly-behavior:fly-behavior-lib",
      "//quack-behavior:quack-behavior-lib",

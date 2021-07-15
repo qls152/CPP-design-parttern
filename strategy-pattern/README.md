@@ -23,4 +23,4 @@ duck目录实现 Duck接口以及各个派生类
 
 main.cc实现相应的测试。
 
-## 构建过程为： cd strategy-pattern && bazel build //:main
+## 构建过程为： cd strategy-pattern && bazel build //duck:duck

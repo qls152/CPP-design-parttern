@@ -1,4 +1,4 @@
-#include "duck/mallard_duck.h"
+#include "mallard_duck.h"
 
 int main() {
   std::shared_ptr<Duck> mallard = std::make_shared<MallardDuck>();

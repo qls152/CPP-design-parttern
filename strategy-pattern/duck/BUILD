@@ -1,7 +1,7 @@
 package(default_visibility = ["//visibility:public"])
 
-cc_binary(
-  name = "duck",
+cc_library(
+  name = "duck-lib",
   copts = [
 	  "-std=c++17",
 	  "-O2",
@@ -10,7 +10,6 @@ cc_binary(
   ],
   srcs = [
 	  "mallard_duck.cc",
-    "main.cc",
     "duck.h",
     "mallard_duck.h",
   ],

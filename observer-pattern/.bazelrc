@@ -1,0 +1,8 @@
+
+build --action_env=BAZEL_LINKLIBS=-l%:libstdc++.a
+build --action_env=BAZEL_LINKOPTS="-static-libstdc++:-lm"
+build --action_env=CC
+build --action_env=CXX
+build --action_env=PATH
+build --copt="-DENVOY_IGNORE_GLIBCXX_USE_CXX11_ABI_ERROR=1"
+build --cxxopt="-std=gnu++17"

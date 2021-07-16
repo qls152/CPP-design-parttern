@@ -1,4 +1,5 @@
 #include "subject/weather_data.h"
+#include <algorithm>
 
 void WeatherData::registerObserver(std::shared_ptr<Observer> observer) {
   obeservers_.push_back(std::move(observer));
@@ -27,5 +28,6 @@ void WeatherData::setMeasurements(float temperature, float humidity, float press
    temperature_ = temperature;
    humidity_ = humidity;
    pressure_ = pressure;
+   measurementsChanged();
 }
 

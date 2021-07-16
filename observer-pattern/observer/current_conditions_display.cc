@@ -4,11 +4,6 @@
 
 #include <iostream>
 
-CurrentConditionsDisplay::CurrentConditionsDisplay(std::shared_ptr<Subject> weather_data) 
-     : weather_data_(std::move(weather_data)) {
-  weather_data_->registerObserver(shared_from_this());
-}
-
 void CurrentConditionsDisplay::display() {
   std::cout << "Current Conditions: " << temperature_ << "F degrees and " 
             << humidity_ << "%humidity\n";

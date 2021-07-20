@@ -13,7 +13,7 @@ NYPizzaStore::NYPizzaStore(std::shared_ptr<PizzaIngredientFactory> pizza_ingredi
 void NYPizzaStore::createPizza(const std::string& type) {
 	std::shared_ptr<AbstractFactoryPizza> pizza{};
 	if (type == "cheese") {
-		pizza = std::make_shared<AbstractFactoryPizza>(pizza_ingredient_factory_);
+		pizza = std::make_shared<AbstractFactoryCheesePizza>(pizza_ingredient_factory_);
 	}
 	
 	if (type == "veggie") {

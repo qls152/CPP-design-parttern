@@ -1,6 +1,6 @@
 #pragma once
 
-#include "pizza-ingredient/dough.h"
+#include "common/pizza-ingredient/dough.h"
 
 #include <iostream>
 

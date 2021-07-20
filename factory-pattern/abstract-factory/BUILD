@@ -5,9 +5,9 @@ cc_library(
 	name = "pizza_ingredient_factory_interface",
 	srcs = ["pizza_ingredient_factory.h"],
 	deps = [
-		"//common/pizza-ingredient:dough-interface",
-		"//common/pizza-ingredient:sauce-interface",
-		"//common/pizza-ingredient:cheese-interface",
+		"//common/pizza-ingredient:dough_interface",
+		"//common/pizza-ingredient:sauce_interface",
+		"//common/pizza-ingredient:cheese_interface",
 	]
 )
 
@@ -31,8 +31,10 @@ cc_library(
 	],
 	deps = [
 		":pizza_ingredient_factory_interface",
-		
-	]
+		"//common/pizza-ingredient:marinara_sauce",
+		"//common/pizza-ingredient:spinach_cheese",
+		"//common/pizza-ingredient:thin_crust_dough",
+	],
 )
 
 cc_library(
@@ -43,10 +45,10 @@ cc_library(
 	],
 	deps = [
 		":pizza_ingredient_factory_interface",
-		"//common/pizaa-ingredient:reggiano_cheese",
-		"//common/pizaa-ingredient:plum_tomato_sauce",	
-		"//common/pizaa-ingredient:thick_crust_dough",
-	]
+		"//common/pizza-ingredient:reggiano_cheese",
+		"//common/pizza-ingredient:plum_tomato_sauce",	
+		"//common/pizza-ingredient:thick_crust_dough",
+	],
 )
 
 cc_library(
@@ -70,5 +72,18 @@ cc_library(
 	deps = [
 		":abstract_factory_pizza_interface",
 		":pizza_ingredient_factory_interface",
+	],
+)
+
+cc_library(
+	name = "ny_pizza_store",
+	srcs = [
+		"ny_pizza_store.h",
+		"ny_pizza_store.cc",
+	],
+	deps = [
+	   "abstract_factory_cheese_pizza",
+	   "abstract_factory_veggie_pizza",
+	   "pizza_ingredient_factory_interface",	
 	],
 )

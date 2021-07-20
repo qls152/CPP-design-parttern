@@ -24,3 +24,19 @@ cc_binary(
 		"//factory:chicagostylepizza_store",
 	],
 )
+
+cc_binary(
+	name = "main_abstract_factory",
+	copts = [
+		"-O2",
+		"-Wall",
+	],
+	srcs = [
+		"main_abstract_factory.cc",
+	],
+	deps = [
+		"//abstract-factory:ny_pizza_store",
+		"//abstract-factory:ny_pizza_ingredient_factory",
+		"//abstract-factory:chicago_pizza_ingredient_factory",
+	],
+)

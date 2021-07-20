@@ -1,6 +1,6 @@
 #pragma once
 
-#include "pizza-ingredient/sauce.h"
+#include "common/pizza-ingredient/sauce.h"
 
 #include <iostream>
 

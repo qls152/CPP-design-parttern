@@ -1,17 +1,17 @@
 package(default_visibility = ["//visibility:public"])
 
 cc_library(
-	name = "dough-interface",
+	name = "dough_interface",
 	srcs = ["dough.h"],
 )
 
 cc_library(
-	name = "sauce-interface",
+	name = "sauce_interface",
 	srcs = ["sauce.h"],
 )
 
 cc_library(
-	name = "cheese-interface",
+	name = "cheese_interface",
 	srcs = ["cheese.h"],
 )
 
@@ -21,7 +21,7 @@ cc_library(
 	   "thin_crust_dough.h",
 	],
 	deps = [
-		":dough-interface",
+		":dough_interface",
 	],
 )
 
@@ -31,7 +31,7 @@ cc_library(
 	   "thick_crust_dough.h",
 	],
 	deps = [
-		":dough-interface",
+		":dough_interface",
 	],
 )
 
@@ -41,7 +41,7 @@ cc_library(
 	   "marinara_sauce.h",
 	],
 	deps = [
-		":sauce-interface",
+		":sauce_interface",
 	],
 )
 
@@ -51,7 +51,7 @@ cc_library(
 	   "plum_tomato_sauce.h",
 	],
 	deps = [
-		":sauce-interface",
+		":sauce_interface",
 	],
 )
 
@@ -61,7 +61,7 @@ cc_library(
 		"reggiano_cheese.h",
 	],
 	deps = [
-		":cheese-interface",
+		":cheese_interface",
 	],
 )
 
@@ -71,6 +71,6 @@ cc_library(
 		"spinach_cheese.h",
 	],
 	deps = [
-		":cheese-interface",
+		":cheese_interface",
 	],
 )

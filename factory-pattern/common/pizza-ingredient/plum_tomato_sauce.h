@@ -6,6 +6,7 @@
 
 class PlumTomatoSauce : public Sauce {
 public:
+  virtual ~PlumTomatoSauce() = default;
   virtual void printIngredientName() override {
     std::cout << "PlumTomatoSauce.\n";
   }

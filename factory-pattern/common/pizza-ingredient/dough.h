@@ -5,5 +5,6 @@
 
 class Dough {
 public:
+  virtual ~Dough() = default;
   virtual void printIngredientName() = 0;
 };

@@ -6,6 +6,7 @@
 
 class MarinaraSauce : public Sauce {
 public:
+  virtual ~MarinaraSauce() = default;
   virtual void printIngredientName() override {
     std::cout << "MarinaraSauce.\n";
   }

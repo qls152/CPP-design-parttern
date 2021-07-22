@@ -19,7 +19,7 @@ public:
        std::shared_ptr<QuackBehavior> quackBehavior)
     : flyBehavior_(std::move(flyBehavior)),
       quackBehavior_(std::move(quackBehavior)) {} 
-  ~Duck() = default;
+  virtual ~Duck() = default;
 
   virtual void display() = 0;
 

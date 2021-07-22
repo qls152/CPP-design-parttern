@@ -7,6 +7,7 @@ private:
   PizzaName pizza_name_{"VeggiePizza"};
 
 public:
+  virtual ~VeggiePizza() = default;
   virtual void prepare() override;
   virtual void bake() override;
   virtual void cut() override;

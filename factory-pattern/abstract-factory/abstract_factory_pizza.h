@@ -14,6 +14,7 @@ class AbstractFactoryPizza : public Pizza {
 public:
   AbstractFactoryPizza(std::shared_ptr<PizzaIngredientFactory> pizza_ingredient_factory) 
     : pizza_ingredient_factory_(std::move(pizza_ingredient_factory)) {}
+  virtual ~AbstractFactoryCheesePizza() = default;
   virtual void prepare() override;
 private:
   std::shared_ptr<PizzaIngredientFactory> pizza_ingredient_factory_{};

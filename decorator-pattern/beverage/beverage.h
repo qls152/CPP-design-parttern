@@ -9,7 +9,7 @@ class Beverage {
 public:
    Beverage(std::string description) 
      : description_(description) {}
-     
+   virtual ~Beverage() = default;  
    virtual double cost() = 0;
    
    // 此接口声明为虚接口，派生类可实现，可不实现

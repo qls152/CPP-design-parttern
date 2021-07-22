@@ -2,6 +2,7 @@
 
 class Observer {
 public:
+  virtual ~Observer() =default;
   // 所有观察者实现该接口
   virtual void update(float temp, float humidity, float pressure) = 0;
 

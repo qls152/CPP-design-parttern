@@ -12,7 +12,7 @@ public:
   explicit CurrentConditionsDisplay(std::shared_ptr<Subject> weather_data)
     : weather_data_(std::move(weather_data)) {}
     
-  ~CurrentConditionsDisplay() = default;
+  virtual ~CurrentConditionsDisplay() = default;
 
   virtual void update(float temp, float humidity, float pressure) override;
   virtual void display() override;

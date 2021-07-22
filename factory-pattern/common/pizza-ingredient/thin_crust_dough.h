@@ -6,6 +6,7 @@
 
 class ThinCrustDough : public Dough {
 public:
+  virtual ~ThinCrustDough() = default;
   virtual void printIngredientName() override {
     std::cout << "ThinCrustDough.\n";
   }

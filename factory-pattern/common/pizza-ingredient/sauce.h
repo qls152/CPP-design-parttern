@@ -5,5 +5,6 @@
 
 class Sauce {
 public:
+  virtual ~Sauce() = default;
   virtual void printIngredientName() = 0;
 };

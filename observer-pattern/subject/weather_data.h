@@ -8,7 +8,7 @@
 class WeatherData : public Subject {
 public:
   WeatherData() = default;
-  ~WeatherData() = default;
+  virtual ~WeatherData() = default;
 
   virtual void registerObserver(std::shared_ptr<Observer> observer) override;
   virtual void removeObserver(std::shared_ptr<Observer> observer) override;

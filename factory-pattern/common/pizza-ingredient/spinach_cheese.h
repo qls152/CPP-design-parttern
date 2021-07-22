@@ -6,6 +6,7 @@
 
 class SpinachCheese : public Cheese {
 public:
+  virtual ~SpinachCheese() = default;
   virtual void printIngredientName() override {
     std::cout << "SpinachCheese.\n";
   }

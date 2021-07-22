@@ -13,9 +13,9 @@ public:
   static ChocolateBoiler& getInstance();
 
   ChocolateBoiler(const ChocolateBoiler&) = delete;
-  ChocolateBoiler operator=(const ChocolateBoiler&) = delete;
+  ChocolateBoiler& operator=(const ChocolateBoiler&) = delete;
   ChocolateBoiler(ChocolateBoiler&&) = delete;
-  ChocolateBoiler&& operator=(ChocolateBoiler&&) = delete;
+  ChocolateBoiler& operator=(ChocolateBoiler&&) = delete;
 
 private:
   ChocolateBoiler();

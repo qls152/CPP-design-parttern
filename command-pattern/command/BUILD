@@ -17,3 +17,15 @@ cc_library(
 		"//slot:light_interface",
 	],
 )
+
+cc_library(
+	name = "garge_door_command",
+	srcs = [
+		"garge_door_command.h",
+		"garge_door_command.cc",
+	],
+	deps = [
+		":command_interface",
+		"//slot:garge_door_interface",
+	]
+)

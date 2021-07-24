@@ -13,5 +13,7 @@ cc_binary(
 	   "//command:light_command",
 	   "//slot:normal_light",
 	   "//control:simple_remote_control",
+	   "//command:garge_door_command",
+	   "//slot:normal_garge_door",
 	],
 )

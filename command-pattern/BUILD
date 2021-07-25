@@ -17,3 +17,23 @@ cc_binary(
 	   "//slot:normal_garge_door",
 	],
 )
+
+cc_binary(
+	name = "remote_control_test",
+	copts = [
+		"-O2",
+		"-Wall",
+	],
+	srcs = [
+		"remote_control_test.cc",
+	],
+	deps = [
+	   "//command:light_command",
+	   "//command:lightoff_command",
+	   "//slot:normal_light",
+	   "//control:remote_control",
+	   "//command:garge_door_command",
+	   "//command:garge_door_off_command",
+	   "//slot:normal_garge_door",
+	],
+)

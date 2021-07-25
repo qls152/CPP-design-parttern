@@ -29,3 +29,38 @@ cc_library(
 		"//slot:garge_door_interface",
 	]
 )
+
+cc_binary(
+	name = "lightoff_command",
+	srcs = [
+		"lightoff_command.h",
+		"lightoff_command.cc",
+	],
+	deps = [
+	        ":command_interface",
+		"//slot:light_interface",	
+	],
+)
+
+cc_library(
+	name = "garge_door_off_command",
+	srcs = [
+		"garge_door_off_command.h",
+		"garge_door_off_command.cc",
+	],
+	deps = [
+		":command_interface",
+		"//slot:garge_door_interface"
+	],
+)
+
+cc_library(
+	name = "no_command",
+	srcs = [
+		"no_command.h",
+		"no_command.cc",
+	],
+	deps = [
+		":command_interface",
+	],
+)

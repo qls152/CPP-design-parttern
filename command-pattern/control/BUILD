@@ -11,3 +11,15 @@ cc_library(
 	    "//command:command_interface"
 	],
 )
+
+cc_library(
+	name = "remote_control",
+	srcs = [
+		"remote_control.h",
+		"remote_control.cc",
+	],
+	deps = [
+		"//command:command_interface",
+		"//command:no_command",
+	],
+)

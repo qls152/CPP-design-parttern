@@ -14,18 +14,18 @@ RemoteControl::RemoteControl(int capacity) : capacity_(capacity) {
 }
 
 void RemoteControl::setCommand(int slot, std::shared_ptr<Command> on_command, std::shared_ptr<Command> off_command) {
-  if (slot < capacity_) return;
+  if (slot >= capacity_) return;
   on_commands_[slot] = on_command;
   off_commands_[slot] = off_command;
 }
 
 void RemoteControl::onButtonWasPressed(int slot) {
-  if (slot < capacity_) return;
+  if (slot >= capacity_) return;
   on_commands_[slot]->execute();
 }
 
 void RemoteControl::offButtonWasPressed(int slot) {
-  if (slot < capacity_) return;
+  if (slot >= capacity_) return;
   off_commands_[slot]->execute();	
 }
 

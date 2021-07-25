@@ -28,12 +28,12 @@ cc_binary(
 		"remote_control_test.cc",
 	],
 	deps = [
+	   "//command:light_off_command",
 	   "//command:light_command",
-	   "//command:lightoff_command",
 	   "//slot:normal_light",
-	   "//control:remote_control",
 	   "//command:garge_door_command",
 	   "//command:garge_door_off_command",
 	   "//slot:normal_garge_door",
+	   "//control:remote_control",
 	],
 )

@@ -30,8 +30,8 @@ cc_library(
 	]
 )
 
-cc_binary(
-	name = "lightoff_command",
+cc_library(
+	name = "light_off_command",
 	srcs = [
 		"lightoff_command.h",
 		"lightoff_command.cc",

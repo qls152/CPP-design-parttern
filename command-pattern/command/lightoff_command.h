@@ -1,7 +1,5 @@
 #pragma once
 
-#pragma once
-
 #include "command/command.h"
 
 #include <memory>

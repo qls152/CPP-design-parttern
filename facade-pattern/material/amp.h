@@ -11,4 +11,5 @@ public:
   virtual void setVolume(int nums) = 0;
   virtual void setSurroundSound() = 0;
   virtual void off() = 0;
+  virtual void on() = 0;
 };

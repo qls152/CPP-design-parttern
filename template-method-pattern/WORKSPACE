@@ -1,1 +1,1 @@
-workspace(name = "stragety-parttern")
+workspace(name = "template-method-parttern")

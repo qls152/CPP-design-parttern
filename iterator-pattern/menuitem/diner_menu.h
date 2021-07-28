@@ -4,13 +4,13 @@
 #include <memory>
 #include <string>
 
-class MentItem;
-
+class MenuItem;
+class Iterator;
 // 该类中实现DinerMenu
 // 该类采用array存放dinermenu
 class DinerMenu {
 public:
-  using VectorMenu = std::vector<std::shared_ptr<MentItem>>;
+  using VectorMenu = std::vector<std::shared_ptr<MenuItem>>;
 private:
   int max_items_{6};
   int numberOffItems_{0};
@@ -22,4 +22,6 @@ public:
   VectorMenu getItems() const {
     return menu_items_;
   }
+
+  std::shared_ptr<Iterator> createIterator();
 };

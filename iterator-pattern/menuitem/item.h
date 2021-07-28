@@ -14,7 +14,7 @@ private:
 public:
  Item(const std::string_view name, const std::string_view description,
       bool vegetarian, double price)
-  : name_(name), description_(description)
+  : name_(name), description_(description),
     vegetarian_(vegetarian), price_(price) {}
 
   const std::string& getName() const {

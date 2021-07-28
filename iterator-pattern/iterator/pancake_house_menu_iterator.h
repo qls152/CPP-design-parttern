@@ -12,7 +12,7 @@ private:
    ArrayList menu_items_;
 
 public:
-  explicit PancakeHouseMenuIterator(ArrayList menu_item)
+  explicit PancakeHouseMenuIterator(ArrayList menu_items)
      : menu_items_(std::move(menu_items)) {}
 
   virtual std::shared_ptr<MenuItem> next() override;

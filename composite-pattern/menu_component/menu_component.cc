@@ -4,7 +4,7 @@
 
 MenuComponent::~MenuComponent() {}
 
-void MenuComponent::add() {
+void MenuComponent::add(std::shared_ptr<MenuComponent> menu_component) {
   init();
 }
 
@@ -42,6 +42,6 @@ void MenuComponent::print() {
   init();
 }
 
-void MenuComponent::init() {
+void MenuComponent::init() const {
   std::cout << "Unknown...\n";
 }

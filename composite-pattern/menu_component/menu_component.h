@@ -2,6 +2,7 @@
 
 #include <memory>
 #include <string>
+#include <vector>
 
 // 定义MenuComponent接口，所有组件均需要实现该接口
 // 叶节点和组合节点角色不同，所以有些方法不适合某种节点
@@ -14,7 +15,6 @@ public:
   virtual void add(std::shared_ptr<MenuComponent> menu_component);
   virtual void remove(std::shared_ptr<MenuComponent> menu_component);
   virtual std::shared_ptr<MenuComponent> getChild(int i);
-  virtual std::string getName() const;
   virtual const std::string& getName() const;
   virtual const std::string& getDescription() const;
   virtual const double getPrice() const;
@@ -22,5 +22,7 @@ public:
   virtual void print();
 
 private:
-  void init();
+  void init() const;
 };
+
+using ArrayList = std::vector<std::shared_ptr<MenuComponent>>;
